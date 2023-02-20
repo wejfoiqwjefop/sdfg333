@@ -1,0 +1,8 @@
+[Unit]
+Description=123
+After=network.target
+Requires=network.target
+
+[Service]
+ExecStart=/bin/bash home/alex/workplace/arp_list.sh
+
